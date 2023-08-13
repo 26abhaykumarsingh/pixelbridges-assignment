@@ -1,0 +1,477 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Relative, sans-serif;
+  font-feature-settings: normal;
+}
+
+body {
+  background-color: #191919;
+}
+
+.navbar {
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  width: 100%;
+  padding: 0 45px;
+  padding-right: 35px;
+  background-color: #191919;
+  box-shadow: 0 5px 20px #151515;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.062745098);
+}
+
+.logo {
+  color: #fcfcfc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "KoHo", sans-serif;
+  font-size: 25px;
+}
+
+span.bunnyIcon {
+  font-size: 30px !important;
+}
+
+.navbar__middle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 44%;
+  font-family: "Relative", sans-serif;
+  font-weight: 400;
+  color: #979799;
+  font-size: 15px;
+}
+
+.nav__link {
+  cursor: no-drop;
+}
+
+button {
+  all: unset;
+}
+
+.navbar__right {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #e7f6f0;
+}
+
+.tradeBtn {
+  height: 56%;
+  width: 70px;
+  background-color: #3db588;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 300;
+  border-radius: 5px;
+  padding-top: 4px;
+  cursor: no-drop;
+}
+
+.connectBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid #393939;
+  width: 170px;
+  height: 56%;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: no-drop;
+}
+
+.walletIcon {
+  background: url(https://zomi.finance/static/media/ic_wallet_24.a19a6758.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+}
+
+.right__btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 56%;
+  width: 70px;
+  border: 1px solid #393939;
+  border-radius: 6px;
+  cursor: no-drop;
+}
+
+.right__btn__img {
+  width: 20px;
+  height: 20px;
+  border-radius: 30px;
+  background-color: white;
+  background: url(https://zomi.finance/static/media/ic_eth_24.6b1d8a1d.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.dotsIcon {
+  font-size: 22px !important;
+  border-left: 1px solid #393939;
+}
+
+/* mainsection1 */
+
+.mainSection1 {
+  margin-top: 10px;
+  z-index: 1;
+  width: 100%;
+  height: 720px;
+  background-color: #191919;
+  color: #ffffff;
+  padding: 0 155px;
+  padding-top: 55px;
+  border-bottom: 1px solid #4d4d4e;
+}
+
+.mainSection1__heading {
+  font-family: Helvetica, sans-serif;
+  font-size: 55px;
+  width: 450px;
+}
+
+.mainSection1__subheading {
+  width: 400px;
+  font-size: 20px;
+  color: #cecece;
+  margin-top: 25px;
+}
+
+.launchExchangeBtn {
+  height: 33px;
+  width: 150px;
+  background-color: #3db588;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 5px;
+  padding-top: 4px;
+  margin-top: 30px;
+  cursor: no-drop;
+}
+
+.mainSection1__cards {
+  width: 100%;
+  height: 200px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mainSection1__card {
+  border: 1px solid #232323;
+  border-radius: 5px;
+  height: 120px;
+  width: 383px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.mainSection1__card__text {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  margin-left: 40px;
+}
+
+.mainSection1__card__text__title {
+  color: #c6c6c6;
+  font-size: 15px;
+}
+
+.mainSection1__card__text__number {
+  color: #efefef;
+  font-size: 30px;
+}
+
+.card1 > .mainSection1__card__icon {
+  background: url(https://zomi.finance/static/media/ic_trading.2c53815a.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.card2 > .mainSection1__card__icon {
+  background: url(https://zomi.finance/static/media/ic_stats.f0a18011.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.card3 > .mainSection1__card__icon {
+  background: url(https://zomi.finance/static/media/ic_totaluser.ae09b310.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.mainSection1__card__icon {
+  height: 50px;
+  width: 50px;
+}
+/* mainsection2 */
+
+.mainSection2 {
+  width: 100%;
+  height: 850px;
+  background-color: #191919;
+  color: #ffffff;
+  padding: 0 155px;
+  border-bottom: 1px solid #4d4d4e;
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+}
+
+.mainSection2__cards1 {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mainsection2__cards1__card {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: 300px;
+}
+
+.mainsection2__cards1__card__top {
+  display: flex;
+  align-items: center;
+}
+
+.icon1 {
+  background: url(https://zomi.finance/static/media/ic_liquidity.505b3f30.svg);
+}
+.icon2 {
+  background: url(https://zomi.finance/static/media/ic_cost.b4a729d3.svg);
+}
+.icon3 {
+  background: url(https://zomi.finance/static/media/ic_simpleswaps.2005009f.svg);
+}
+
+.mainsection2__cards1__card__icon {
+  height: 40px;
+  width: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.mainSection2__cards1__card__heading {
+  font-size: 20px;
+  padding-left: 15px;
+  color: #ffffff;
+}
+
+.mainsection2__cards1__card__bottom {
+  font-size: 18px;
+  color: #cecece;
+  margin-top: 20px;
+}
+
+.mainSection2__headingcards2 {
+  margin-top: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mainSection2__heading {
+  width: 350px;
+  height: 60px;
+  font-size: 40px;
+  font-family: Helvetica, sans-serif;
+}
+
+.mainsection2__cards2 {
+  width: 100%;
+  height: 370px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.mainsection2__cards2__card {
+  height: 250px;
+  width: 595px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  background: #151515;
+  box-shadow: 0 0.5rem 1.3rem rgba(0, 0, 0, 0.5215686274509804);
+  border: 1px solid #4d4d4e;
+  border-radius: 7px;
+  padding: 30px;
+  padding-top: 20px;
+}
+
+.mainsection2__cards2__card__top {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.mainsection2__cards2__card__icon {
+  height: 40px;
+  width: 40px;
+}
+
+.icon4 {
+  background: url(./assets/icon4.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.icon5 {
+  background: url(./assets/icon5.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.mainsection2__cards2__card__title {
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.mainsection2__cards2__card__middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.mainsection2__cards2__card__text {
+  font-size: 17px;
+  color: #ffffff;
+}
+
+.mainsection2__cards2__card__rate {
+  font-size: 14px;
+  color: #cecece;
+}
+
+.mainsection2__cards2__card__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 35px;
+  width: 190px;
+}
+
+.mainsection2__cards2__card__bottom > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: no-drop;
+  font-size: 13px;
+}
+
+.mainsection2__cards2__card__bottom__buyBtn {
+  height: 100%;
+  width: 60px;
+  background-color: #3db588;
+  border-radius: 5px;
+}
+
+.mainsection2__cards2__card__bottom__readBtn {
+  height: 100%;
+  width: 110px;
+  border-radius: 5px;
+  border: 1px solid #a0a3c4;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #151515;
+  padding-top: 50px;
+}
+
+.footer__icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 420px;
+  padding-top: 10px;
+}
+
+.footer__icon {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: no-drop;
+}
+
+.twitterIcon {
+  background: url(https://zomi.finance/static/media/ic_twitter.9f35b403.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.mediumIcon {
+  background: url(https://zomi.finance/static/media/ic_medium.f6051b2e.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.githubIcon {
+  background: url(https://zomi.finance/static/media/ic_github.dbd4de8a.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.telegramIcon {
+  background: url(https://zomi.finance/static/media/ic_telegram.af1a4a66.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.discordIcon {
+  background: url(https://zomi.finance/static/media/ic_discord.be4d716c.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.footer__links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-size: 14px;
+  width: 330px;
+}
+
+.footer__link {
+  cursor: no-drop;
+}
